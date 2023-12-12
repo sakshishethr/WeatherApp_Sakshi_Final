@@ -1,1 +1,3 @@
-# Final
+Welcome to WeatherApp, the culmination of my web development journey. This application is designed and developed by me, Sakshi, as my final project for the web development course. My student number is A00262877.
+
+WeatherApp is a user-friendly web application that provides accurate and up-to-date weather forecasts. Utilizing modern web technologies, this project showcases my skills in full-stack web development, including responsive design, client-server interaction, and API integration use openweather api.
