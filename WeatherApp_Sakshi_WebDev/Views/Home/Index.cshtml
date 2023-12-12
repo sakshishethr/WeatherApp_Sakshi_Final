@@ -1,0 +1,83 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to my Weather App</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f2f2f2;
+            font-family: Arial, sans-serif;
+        }
+
+        .jumbotron {
+            background-color: #007BFF;
+            color: white;
+            padding: 30px;
+        }
+
+        .container {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            margin-top: 20px;
+        }
+
+        .btn-primary {
+            background-color: #007BFF;
+            border: none;
+        }
+
+            .btn-primary:hover {
+                background-color: #0056b3;
+            }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header class="jumbotron text-center">
+        <h1 class="display-4">Welcome to My Weather App</h1>
+        <p class="lead">Get up-to-date weather information for any location.</p>
+    </header>
+
+    <main class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>About Weather App</h2>
+                <p>
+                    Weather App is your go-to source for weather updates from around the world.
+                    Whether you're planning a trip, checking the daily forecast, or just curious about the weather,
+                    our app has you covered. Get accurate and real-time weather data for any location with ease.
+                </p>
+            </div>
+            <div class="col-md-6">
+                <h2>Get Started</h2>
+                <p>
+                    To get started, simply enter the name of your city, state, and country in the search bar above.
+                    Click the "Search" button, and you'll receive detailed weather information for your location.
+                    It's that easy!
+                </p>
+                <a href="/OpenWeatherMap/Index" class="btn btn-primary">Start Exploring</a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="text-center py-3">
+        <p>&copy; 2023 Weather App | Author: Sakshi (A00262877)</p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

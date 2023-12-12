@@ -1,0 +1,90 @@
+﻿@{
+    ViewData["Title"] = "About";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f2f2f2;
+            font-family: Arial, sans-serif;
+        }
+
+        .navbar {
+            background-color: #007BFF;
+        }
+
+        .container {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            margin-top: 20px;
+        }
+
+        .btn-primary {
+            background-color: #007BFF;
+            border: none;
+        }
+
+            .btn-primary:hover {
+                background-color: #0056b3;
+            }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">Weather App</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/OpenWeatherMap/Index">Weather Forecast</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/Home/About">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Privacy Policy</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="jumbotron text-center">
+        <h1 class="display-4">@ViewData["Title"]</h1>
+    </header>
+
+    <main class="container">
+        <h2>About Weather App</h2>
+        <p>
+            Weather App is a reliable source for weather information, utilizing multiple APIs for location and weather data.
+            It offers you the latest weather conditions for any location around the world.
+        </p>
+        <p>
+            To access the current weather conditions, simply visit our <a href="/OpenWeatherMap/Index">Weather Forecast</a> page
+            and select your desired location. Our app will provide you with accurate and up-to-date weather details.
+        </p>
+    </main>
+
+    <footer class="text-center py-3">
+        <p>&copy; 2023 Weather App | Author: Sakshi (A00262877)</p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
